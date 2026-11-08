@@ -130,6 +130,15 @@ function rendrePied(mentions = []) {
 
 // --- Onglet actif dans la navigation -----------------------
 
+// Fait défiler la barre de navigation horizontalement, sans toucher
+// au défilement de la page (scrollIntoView faisait remonter la page,
+// car il ramenait aussi la barre « collante » à sa place d'origine).
+function centrerLien(lien) {
+  const nav = lien.parentElement;
+  const cible = lien.offsetLeft - (nav.clientWidth - lien.offsetWidth) / 2;
+  nav.scrollTo({ left: Math.max(0, cible), behavior: "smooth" });
+}
+
 function suivreChapitreActif() {
   const liens = document.querySelectorAll(".nav a");
   const chapitres = document.querySelectorAll(".chapitre");
@@ -141,7 +150,7 @@ function suivreChapitreActif() {
         liens.forEach((lien) => {
           const actif = lien.dataset.id === entree.target.id;
           lien.classList.toggle("actif", actif);
-          if (actif) lien.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+          if (actif) centrerLien(lien);
         });
       });
     },
