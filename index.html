@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La carte d'exploration · ANKOR</title>
+  <meta name="description" content="La carte du bar d'ANKOR, la cité d'aventure de Cesson-Sévigné.">
+  <meta name="theme-color" content="#2f3c33">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Barlow+Semi+Condensed:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Couverture -->
+  <header class="couverture">
+    <svg class="feuillage feuillage--gauche" viewBox="0 0 200 160" aria-hidden="true">
+      <path d="M0 0h120c-10 30-40 40-60 45C35 52 15 75 0 95z"/>
+      <path d="M70 120c20-25 45-45 80-60-30 25-50 45-80 60z"/>
+      <path d="M95 90c-6-10-4-20 4-26 2 10 2 18-4 26zM112 78c-8-6-10-16-4-24 4 8 6 16 4 24zM128 68c-8-4-12-13-8-22 5 7 8 14 8 22zM84 103c-10-6-12-16-6-24 4 8 6 16 6 24z"/>
+      <circle cx="30" cy="125" r="7"/>
+    </svg>
+    <svg class="feuillage feuillage--droite" viewBox="0 0 200 160" aria-hidden="true">
+      <path d="M200 0H85c15 20 10 45 30 60 20 16 55 10 85 40z"/>
+      <path d="M60 10c-15 25-10 50 10 60-5-22 0-40-10-60z"/>
+      <circle cx="150" cy="135" r="9"/>
+    </svg>
+
+    <div class="couverture__contenu">
+      <svg class="embleme" viewBox="0 0 40 52" aria-hidden="true">
+        <path d="M2 2h36v48H2zM8 8v36h24V14H14v24h12V20h-6v12"/>
+      </svg>
+      <h1 class="couverture__titre">
+        <span>La carte</span>
+        <span class="couverture__barre">d'exploration</span>
+      </h1>
+      <p class="logo-texte" aria-label="ANKOR">ANKOR</p>
+    </div>
+  </header>
+
+  <!-- Navigation entre les chapitres -->
+  <nav class="nav" id="nav" aria-label="Chapitres de la carte"></nav>
+
+  <main id="carte" class="carte">
+    <p class="chargement">Déchiffrage de la carte…</p>
+  </main>
+
+  <footer class="pied" id="pied"></footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

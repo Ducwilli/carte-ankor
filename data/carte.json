@@ -1,0 +1,263 @@
+{
+  "titre": "La carte d'exploration",
+  "mentions": [
+    "Liste des allergènes disponible sur demande au comptoir.",
+    "Prix en euros TTC service compris.",
+    "L'abus d'alcool est dangereux pour la santé."
+  ],
+  "chapitres": [
+    {
+      "id": "breuvages",
+      "titre": "Nos breuvages",
+      "categories": [
+        {
+          "titre": "Bières",
+          "formats": ["25cl", "33cl", "50cl"],
+          "articles": [
+            { "nom": "Ankor Blonde", "tag": "Pression", "prix": [3.8, null, 6.9] },
+            { "nom": "Kioné Blanche", "tag": "Pression", "prix": [4.5, null, 7.9] },
+            { "nom": "St Erwann Abbaye", "tag": "Pression", "prix": [4.8, null, 8.5] },
+            { "nom": "Bière", "duMoment": true, "tag": "Pression", "prix": [4.9, null, 8.9] },
+            { "nom": "Monaco", "tag": "Pression", "prix": [4.2, null, 7.7] },
+            { "nom": "Liefmans Rouge", "tag": "Bouteille", "prix": [5.5, null, null] },
+            { "nom": "Desperados", "tag": "Bouteille", "prix": [null, 6.0, null] },
+            { "nom": "Drëmmwel 0%", "tag": "Bouteille", "prix": [4.5, null, null] },
+            { "nom": "Chouffe", "tag": "Bouteille", "prix": [null, 6.5, null] },
+            { "nom": "Cidre Ti-Lõ Brut", "tag": "Bouteille", "prix": [6.5, null, null] },
+            { "nom": "Skumenn Ambrée", "tag": "Bouteille", "prix": [null, 6.5, null] },
+            { "nom": "Skumenn IPA", "tag": "Bouteille", "prix": [null, 6.5, null] }
+          ]
+        },
+        {
+          "titre": "Cocktails",
+          "articles": [
+            { "nom": "Cocktail", "duMoment": true, "prix": [9.0] },
+            { "nom": "Spritz Apérol", "prix": [8.9] },
+            { "nom": "Spritz St Germain", "prix": [9.5] },
+            { "nom": "Mojito", "prix": [8.9] },
+            { "nom": "Moscow Mule", "prix": [8.9] },
+            { "nom": "Gin Tonic", "prix": [8.9] },
+            { "nom": "Cuba Libre", "prix": [8.9] },
+            { "nom": "Tequila Sunrise", "prix": [8.9] },
+            { "nom": "Ti-Punch", "detail": "6cl", "prix": [8.2] },
+            { "nom": "Planteur", "detail": "25cl / 1l", "prix": [5.5, 15.0] }
+          ]
+        },
+        {
+          "titre": "Mocktails",
+          "articles": [
+            { "nom": "Mocktail", "duMoment": true, "prix": [6.9] },
+            { "nom": "Virgin Mojito", "prix": [6.8] }
+          ]
+        },
+        {
+          "titre": "Apéritifs & digestifs",
+          "articles": [
+            { "nom": "Ricard", "prix": [4.0] },
+            { "nom": "Martini", "detail": "rouge / blanc, 6cl", "prix": [4.0] },
+            { "nom": "Kir", "detail": "cassis / mûre / pêche, 12cl", "prix": [4.5] },
+            { "nom": "Get 27", "detail": "6cl", "prix": [6.5] },
+            { "nom": "Baileys", "detail": "6cl", "prix": [6.5] },
+            { "nom": "Speakeasy Mentha", "detail": "6cl", "prix": [6.5] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sans-alcool",
+      "titre": "Sans alcool",
+      "categories": [
+        {
+          "titre": "Les softs",
+          "articles": [
+            { "nom": "Coca-Cola", "detail": "33cl", "prix": [4.0] },
+            { "nom": "Coca-Cola Zéro", "detail": "33cl", "prix": [4.0] },
+            { "nom": "Coca-Cola Cherry", "detail": "33cl", "prix": [4.0] },
+            { "nom": "Diabolo", "detail": "25cl", "prix": [3.8] },
+            { "nom": "Fuze Tea", "detail": "25cl", "prix": [3.9] },
+            { "nom": "Limonade", "detail": "25cl", "prix": [3.2] },
+            { "nom": "Orangina", "detail": "25cl", "prix": [3.8] },
+            { "nom": "Oasis", "detail": "25cl", "prix": [3.8] },
+            { "nom": "Schweppes Agrumes", "detail": "25cl", "prix": [3.8] },
+            { "nom": "Schweppes Tonic", "detail": "25cl", "prix": [3.8] },
+            { "nom": "Ginger Beer", "detail": "20cl", "prix": [3.9] },
+            { "nom": "Thé glacé", "duMoment": true, "detail": "25cl", "prix": [4.5] },
+            { "nom": "Sirop à l'eau", "detail": "25cl", "prix": [2.8] },
+            { "nom": "Perrier", "prix": [3.8] }
+          ]
+        },
+        {
+          "titre": "Les jus de fruits bio Recolt",
+          "articles": [
+            { "nom": "Orange Carotte Citron", "detail": "25cl", "prix": [5.0] },
+            { "nom": "Pomme Nature", "detail": "25cl", "prix": [5.0] },
+            { "nom": "Pomme Fraise", "detail": "25cl", "prix": [5.0] },
+            { "nom": "Tomate", "detail": "25cl", "prix": [5.0] }
+          ]
+        },
+        {
+          "titre": "Les boissons chaudes",
+          "articles": [
+            { "nom": "Expresso", "prix": [1.8] },
+            { "nom": "Double expresso", "prix": [3.1] },
+            { "nom": "Allongé", "prix": [1.8] },
+            { "nom": "Café noisette", "prix": [2.0] },
+            { "nom": "Cappuccino", "prix": [3.5] },
+            { "nom": "Latte macchiato", "prix": [3.9] },
+            { "nom": "Café viennois", "prix": [3.5] },
+            { "nom": "Irish coffee", "prix": [8.5] },
+            { "nom": "Déca", "prix": [2.1] },
+            { "nom": "Chocolat chaud", "prix": [4.5] },
+            { "nom": "Chocolat viennois", "prix": [5.5] },
+            { "nom": "Thé", "description": "Vert, noir, fruité ou infusion", "prix": [3.9] }
+          ]
+        },
+        {
+          "titre": "Les frappés",
+          "articles": [
+            {
+              "nom": "Café / Latté",
+              "description": "Contient du sirop d'orgeat",
+              "prix": [4.0],
+              "options": [{ "nom": "Sup. Caramel / Choco noisette", "prix": 0.5 }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vins-spiritueux",
+      "titre": "Vins & spiritueux",
+      "categories": [
+        {
+          "titre": "Vins blancs",
+          "formats": ["12cl", "75cl"],
+          "articles": [
+            { "nom": "Côte-de-Gascogne Colombard", "prix": [4.5, 27.0] },
+            { "nom": "Bergerac Moelleux", "prix": [4.5, 27.0] }
+          ]
+        },
+        {
+          "titre": "Vin rosé",
+          "formats": ["12cl", "75cl"],
+          "articles": [
+            { "nom": "Île de Beauté Umanu", "prix": [4.5, 27.0] }
+          ]
+        },
+        {
+          "titre": "Vins rouges",
+          "formats": ["12cl", "75cl"],
+          "articles": [
+            { "nom": "Côte de Gascogne Merlot", "prix": [4.5, 27.0] },
+            { "nom": "Luberon Envie de Nature", "prix": [5.0, 29.0] }
+          ]
+        },
+        {
+          "titre": "Vins pétillants",
+          "formats": ["12cl", "75cl"],
+          "articles": [
+            { "nom": "Prosecco Edoardo Rota", "prix": [6.0, 34.0] },
+            { "nom": "Champagne C. Mignon", "prix": [null, 58.0] }
+          ]
+        },
+        {
+          "titre": "Rhum",
+          "articles": [
+            { "nom": "Havana Club", "detail": "4cl", "prix": [5.5] },
+            { "nom": "Damoiseau", "detail": "4cl", "prix": [6.0] },
+            { "nom": "Botana Bio", "detail": "4cl", "prix": [8.0] }
+          ]
+        },
+        {
+          "titre": "Cognac",
+          "articles": [
+            { "nom": "ABK 6 VS", "detail": "4cl", "prix": [9.0] }
+          ]
+        },
+        {
+          "titre": "Whiskys",
+          "articles": [
+            { "nom": "Clan Campbell", "detail": "4cl", "prix": [5.5] },
+            { "nom": "Jameson", "detail": "4cl", "prix": [7.0] },
+            { "nom": "Nikka", "detail": "4cl", "prix": [8.0] }
+          ]
+        },
+        {
+          "titre": "Gin | Tequila | Vodka",
+          "articles": [
+            { "nom": "Gin Octopus", "detail": "4cl", "prix": [7.0] },
+            { "nom": "Tequila San José", "detail": "4cl", "prix": [6.0] },
+            { "nom": "Vodka Sobieski", "detail": "4cl", "prix": [8.0] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "provisions",
+      "titre": "Nos provisions",
+      "legende": "(V) Végétarien",
+      "categories": [
+        {
+          "titre": "À partager",
+          "style": "bloc",
+          "articles": [
+            { "nom": "Planche mixte", "description": "Charcuterie et fromage selon arrivage", "prix": [16.8] },
+            { "nom": "Planche végé", "vege": true, "prix": [16.8] },
+            { "nom": "Nachos", "vege": true, "description": "Chips de maïs, cheddar fondu, guacamole", "prix": [7.5] },
+            { "nom": "Saucisson", "description": "Nature, noisette, comté et plus selon arrivage", "prix": [6.0] },
+            { "nom": "Tartinable", "description": "Au choix : tomates chèvre, galette saucisse, thon", "prix": [6.0] },
+            { "nom": "Chips", "description": "Sel et plus selon arrivage", "prix": [2.5] }
+          ]
+        },
+        {
+          "titre": "Nos pizzas",
+          "style": "bloc",
+          "articles": [
+            { "nom": "Reine", "description": "Sauce tomate, mozzarella, jambon blanc", "prix": [10.9] },
+            { "nom": "3 Fromages", "vege": true, "description": "Sauce tomate, chèvre, bleu, mozzarella", "prix": [12.5] },
+            { "nom": "Burger", "description": "Sauce tomate, viande hachée, mozzarella, oignons rouges, cheddar, sauce barbecue", "prix": [13.9] }
+          ]
+        },
+        {
+          "titre": "Nos plats",
+          "style": "bloc",
+          "articles": [
+            { "nom": "Croque-monsieur", "description": "Pain toasté, jambon blanc, emmental, beurre", "prix": [8.5] },
+            { "nom": "Parmentier de canard", "description": "Écrasé de pommes de terre, beurre, confit de canard, oignons, chapelure", "prix": [11.0] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tresors-sucres",
+      "titre": "Nos trésors sucrés",
+      "categories": [
+        {
+          "titre": "Douceurs",
+          "style": "vedette",
+          "articles": [
+            {
+              "nom": "Gaufres",
+              "prix": [4.0],
+              "options": [
+                { "nom": "Nappage au choix", "description": "Fruits rouges, caramel ou Nutella", "prix": 0.5 },
+                { "nom": "Topping au choix", "description": "M&M's minis, KitKat, Spéculoos", "prix": 0.5 },
+                { "nom": "Supplément", "description": "Crème fouettée", "prix": 0.5 }
+              ]
+            },
+            { "nom": "Cookies", "description": "Selon arrivage", "prix": [2.5] },
+            { "nom": "Muffins", "description": "Selon arrivage", "prix": [3.8] },
+            {
+              "nom": "Glaces",
+              "prix": [3.5],
+              "options": [
+                { "nom": "Cornetto", "description": "Classique, vanille fraise" },
+                { "nom": "Magnum", "description": "Amande, chocolat blanc, double noisette, fruits rouges" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
