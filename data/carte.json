@@ -83,7 +83,8 @@
             { "nom": "Ginger Beer", "detail": "20cl", "prix": [3.9] },
             { "nom": "Thé glacé", "duMoment": true, "detail": "25cl", "prix": [4.5] },
             { "nom": "Sirop à l'eau", "detail": "25cl", "prix": [2.8] },
-            { "nom": "Perrier", "prix": [3.8] }
+            { "nom": "Perrier", "prix": [3.8] },
+            { "nom": "Kombucha", "prix": [5.5] }
           ]
         },
         {
@@ -92,6 +93,7 @@
             { "nom": "Orange Carotte Citron", "detail": "25cl", "prix": [5.0] },
             { "nom": "Pomme Nature", "detail": "25cl", "prix": [5.0] },
             { "nom": "Pomme Fraise", "detail": "25cl", "prix": [5.0] },
+            { "nom": "Pomme Rhubarbe", "detail": "25cl", "prix": [5.0] },
             { "nom": "Tomate", "detail": "25cl", "prix": [5.0] }
           ]
         },
